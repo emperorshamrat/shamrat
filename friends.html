@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Friends - Shamrat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-image: url('friends.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .overlay{
+            background: rgba(0,0,0,0.80);
+            min-height: 100vh;
+            padding-bottom: 50px;
+        }
+
+        header{
+            text-align:center;
+            padding:25px;
+            background: rgba(0,0,0,0.9);
+        }
+
+        header h1{
+            font-size:36px;
+            letter-spacing:2px;
+        }
+
+        nav{
+            text-align:center;
+            margin:20px 0;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:white;
+            margin:0 15px;
+            font-size:18px;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#00ffff;
+        }
+
+        .content{
+            width:85%;
+            margin:auto;
+            padding:30px;
+        }
+
+        .intro{
+            text-align:center;
+            margin-bottom:40px;
+            font-size:18px;
+            line-height:1.8;
+        }
+
+        .section{
+            margin-bottom:50px;
+            background: rgba(0,0,0,0.6);
+            padding:25px;
+            border-radius:10px;
+        }
+
+        .section h2{
+            margin-bottom:15px;
+            color:#00ffff;
+        }
+
+        .section p{
+            line-height:1.7;
+            margin-bottom:15px;
+        }
+
+        .image-grid{
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap:15px;
+        }
+
+        .image-grid img{
+            width:100%;
+            border-radius:8px;
+            transition:0.4s;
+        }
+
+        .image-grid img:hover{
+            transform: scale(1.05);
+        }
+
+        footer{
+            text-align:center;
+            padding:15px;
+            background: rgba(0,0,0,0.9);
+            margin-top:40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+<header>
+    <h1>My Friends</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="content">
+
+    <div class="intro">
+        Friendship is like a flowing river — constantly moving, evolving,
+        and connecting different phases of life. As time passes, new friends
+        join the journey while old bonds remain rooted in memory and heart.
+        From childhood to professional life, every stage adds new colors
+        to the river of relationships.
+    </div>
+
+    <div class="section">
+        <h2>School Life Friends</h2>
+        <p>
+            School friends are the foundation of lifelong memories.
+            They were part of innocent laughter, shared dreams,
+            and the early lessons of life.
+        </p>
+        <div class="image-grid">
+            <img src="friends School.jpg" alt="School Friends">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>College & Department Friends</h2>
+        <p>
+            College life introduced a broader world of ideas and ambitions.
+            Department friends became companions in academic growth,
+            challenges, and self-discovery.
+        </p>
+        <div class="image-grid">
+            <img src="friends dept.jpg" alt="Department Friends">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>University Life Friends</h2>
+        <p>
+            University friends shaped maturity, responsibility,
+            and independence. They were partners in dreams,
+            projects, and unforgettable campus moments.
+        </p>
+        <div class="image-grid">
+            <img src="friends Varsity.jpg" alt="Varsity Friends">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Hall & Roommate Friends</h2>
+        <p>
+            Hallmates and roommates shared daily life closely —
+            late-night conversations, shared meals, struggles,
+            and support. These friendships often grow into
+            brotherhood beyond time and distance.
+        </p>
+        <div class="image-grid">
+            <img src="friends hall.jpg" alt="Hall Friends">
+            <img src="friends room.jpg" alt="Roommate Friends">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Professional Life Friends</h2>
+        <p>
+            Professional life brings connections built on trust,
+            teamwork, and shared goals. These friendships are
+            formed through responsibility and mutual growth.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 MD ABDUR RAHMAN SHAMRAT | Personal Website
+</footer>
+
+</div>
+
+</body>
+</html>
