@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: shamrat-personal-website
+    env: static
+    buildCommand: ""
+    staticPublishPath: "./"
